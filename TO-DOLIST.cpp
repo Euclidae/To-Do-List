@@ -15,7 +15,7 @@ void parameters(){
     std::cout << std::setw(150) << std::right << "TO-DO LIST" << std::endl;    
     std::cout << "1. Remove Item\n2.Add Item \n3.Display Item \n4.Quit" << std::endl;
 }
-
+//TODO, ADD Task priorities
 void AddTask(std::string task, std::vector<std::string>& items);
 void RemoveTask(std::string task, std::vector<std::string>& items);
 
